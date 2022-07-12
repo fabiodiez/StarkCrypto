@@ -1,0 +1,12 @@
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\bin\Debug\net5.0\StarkCrypto.Entities.deps.json
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\bin\Debug\net5.0\StarkCrypto.Entities.dll
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\bin\Debug\net5.0\ref\StarkCrypto.Entities.dll
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\bin\Debug\net5.0\StarkCrypto.Entities.pdb
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\obj\Debug\net5.0\StarkCrypto.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\obj\Debug\net5.0\StarkCrypto.Entities.AssemblyInfoInputs.cache
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\obj\Debug\net5.0\StarkCrypto.Entities.AssemblyInfo.cs
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\obj\Debug\net5.0\StarkCrypto.Entities.csproj.CoreCompileInputs.cache
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\obj\Debug\net5.0\StarkCrypto.Entities.dll
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\obj\Debug\net5.0\ref\StarkCrypto.Entities.dll
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\obj\Debug\net5.0\StarkCrypto.Entities.pdb
+C:\Users\fabio.damasceno\Documents\CodeStark\Projetos\Crypto\StarkBot\WebApi\StarkCrypto.Entities\obj\Debug\net5.0\StarkCrypto.Entities.csprojAssemblyReference.cache
