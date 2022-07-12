@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StarkCrypto.Entities\StarkCrypto.Entities.csproj" />
+    <ProjectReference Include="..\StarkCrypto.Entities\StarkCrypto.Domains.csproj" />
   </ItemGroup>
 
 </Project>

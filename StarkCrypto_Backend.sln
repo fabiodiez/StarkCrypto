@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarkCrypto.BackEnd", "StarkCrypto_Backend\StarkCrypto.BackEnd.csproj", "{357A8C45-EE6F-499C-8699-C5A04FCCB149}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarkCrypto.Entities", "StarkCrypto.Entities\StarkCrypto.Entities.csproj", "{639BB0FE-0FC9-4FD1-8042-F11FA1BCBB6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarkCrypto.Domains", "StarkCrypto.Entities\StarkCrypto.Domains.csproj", "{639BB0FE-0FC9-4FD1-8042-F11FA1BCBB6B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarkCrypto.Data", "StarkCrypto.Data\StarkCrypto.Data.csproj", "{74A154FC-6734-4390-9CD8-58793898AF53}"
 EndProject

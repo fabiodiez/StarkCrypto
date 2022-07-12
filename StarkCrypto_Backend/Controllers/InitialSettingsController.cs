@@ -6,8 +6,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using StarkCrypto.Services.Interfaces;
-using StarkCrypto.Entities.Models;
-using StarkCrypto.Entities.Enum;
+using StarkCrypto.Domains.Models;
+using StarkCrypto.Domains.Enum;
 using StarkCrypto.Data;
 
 namespace StarkCrypto.Controllers

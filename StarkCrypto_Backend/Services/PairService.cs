@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StarkCrypto.Data;
-using StarkCrypto.Entities.Models;
+using StarkCrypto.Domains.Models;
 using StarkCrypto.Services.Interfaces;
 using System;
 using System.Collections.Generic;

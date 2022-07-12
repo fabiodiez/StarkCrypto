@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace StarkCrypto.Entities.Models
+namespace StarkCrypto.Domains.Models
 {
     public class SimulationMirror
     {

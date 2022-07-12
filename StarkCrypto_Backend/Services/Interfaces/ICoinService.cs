@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using StarkCrypto.Entities.Models;
+using StarkCrypto.Domains.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

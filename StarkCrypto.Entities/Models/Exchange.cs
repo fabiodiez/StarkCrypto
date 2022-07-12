@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace StarkCrypto.Entities.Models
+namespace StarkCrypto.Domains.Models
 {
     public class Exchange
     {

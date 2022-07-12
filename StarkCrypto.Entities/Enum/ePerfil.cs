@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace StarkCrypto.Entities.Enum
+namespace StarkCrypto.Domains.Enum
 {
     public enum ePerfil
     {

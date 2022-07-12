@@ -8,24 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fabio.damasceno\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\fabio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabio.damasceno\\Documents\\CodeStark\\Projetos\\Crypto\\StarkBot\\WebApi\\StarkCrypto.Entities\\StarkCrypto.Entities.csproj",
-      "projectName": "StarkCrypto.Entities",
-      "projectPath": "C:\\Users\\fabio.damasceno\\Documents\\CodeStark\\Projetos\\Crypto\\StarkBot\\WebApi\\StarkCrypto.Entities\\StarkCrypto.Entities.csproj",
-      "packagesPath": "C:\\Users\\fabio.damasceno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabio.damasceno\\Documents\\CodeStark\\Projetos\\Crypto\\StarkBot\\WebApi\\StarkCrypto.Entities\\obj\\",
+      "projectUniqueName": "C:\\Users\\fabio\\OneDrive\\Documentos\\CodeStark\\Projetos\\StarkCrypto\\StarkCrypto.Entities\\StarkCrypto.Domains.csproj",
+      "projectName": "StarkCrypto.Domains",
+      "projectPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\CodeStark\\Projetos\\StarkCrypto\\StarkCrypto.Entities\\StarkCrypto.Domains.csproj",
+      "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\CodeStark\\Projetos\\StarkCrypto\\StarkCrypto.Entities\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\fabio.damasceno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

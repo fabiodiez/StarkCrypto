@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2y9xvD7lKNUO0dwQk+se/YBAl9Nnt539eywzCWdPJaVPegFSx9Ho7vTIgJNiQ+bbk+v7T0fGlBoc0b7wHbT2KA==",
+  "dgSpecHash": "7RF+tuSRTF9eTRh1xKWtXhxCDgIA9X+yeniNEJX60YluorSzCxMAyDvRMnuYs+opSYaNqJIlMPq4563RvYj10A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fabio.damasceno\\Documents\\CodeStark\\Projetos\\Crypto\\StarkBot\\WebApi\\StarkCrypto.Entities\\StarkCrypto.Entities.csproj",
+  "projectFilePath": "C:\\Users\\fabio\\OneDrive\\Documentos\\CodeStark\\Projetos\\StarkCrypto\\StarkCrypto.Entities\\StarkCrypto.Domains.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
