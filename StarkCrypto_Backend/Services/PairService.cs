@@ -52,7 +52,8 @@ namespace StarkCrypto.Services
             await _context.SaveChangesAsync();
             
             try {
-                var ret = await _context.Pairs.Where(p => p.Id == model.Id).Include(x => x.Exchange).Include(x => x.FirstCoin).Include(x => x.SecondCoin).AsNoTracking().FirstOrDefaultAsync();
+                //var ret = await _context.Pairs.Where(p => p.Id == model.Id).Include(x => x.Exchange).Include(x => x.FirstCoin).Include(x => x.SecondCoin).AsNoTracking().FirstOrDefaultAsync();
+                var ret = await _context.Pairs.Where(p => p.Id == model.Id).Include(x => x.Exchange).AsNoTracking().FirstOrDefaultAsync();
                 return Ok(ret);            
             }
             catch (Exception)

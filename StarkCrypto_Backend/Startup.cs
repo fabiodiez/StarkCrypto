@@ -64,8 +64,8 @@ namespace StarkCrypto
 
             services.AddControllers();
 
-            //services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
-            services.AddDbContext<DataContext>(opt => opt.UseMySQL(Configuration.GetConnectionString("Default")));
+            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            //services.AddDbContext<DataContext>(opt => opt.UseMySQL(Configuration.GetConnectionString("Default")));
 
 
             services.AddScoped<DataContext, DataContext>();
@@ -74,6 +74,8 @@ namespace StarkCrypto
             services.AddScoped<IExchangeCoinsService, ExchangeCoinsService>();
             services.AddScoped<IPairService, PairService>();
             services.AddScoped<IOpportunityService, OpportunityService>();
+            services.AddScoped<IConfigService, ConfigService>();
+            //services.AddScoped(typeof(IRequestService<>), typeof(RequestService<>));
 
             services.AddSwaggerGen(c =>
             {

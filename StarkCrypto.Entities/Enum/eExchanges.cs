@@ -13,6 +13,7 @@ namespace StarkCrypto.Domains.Enum
         Kraken = 4,
         Livecoin = 5,
         Poloniex = 6,
-        Novadax = 7
+        Novadax = 7,
+        MercadoBitcoin = 8
     }
 }

@@ -10,7 +10,7 @@
         "dependencies": {
           "EntityFramework": "6.4.4",
           "Microsoft.EntityFrameworkCore": "3.1.10",
-          "StarkCrypto.Entities": "1.0.0"
+          "StarkCrypto.Domains": "1.0.0"
         },
         "runtime": {
           "StarkCrypto.Data.dll": {}
@@ -390,9 +390,9 @@
           }
         }
       },
-      "StarkCrypto.Entities/1.0.0": {
+      "StarkCrypto.Domains/1.0.0": {
         "runtime": {
-          "StarkCrypto.Entities.dll": {}
+          "StarkCrypto.Domains.dll": {}
         }
       }
     }
@@ -662,7 +662,7 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
-    "StarkCrypto.Entities/1.0.0": {
+    "StarkCrypto.Domains/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

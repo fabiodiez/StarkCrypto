@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace StarkCrypto.Services
 {
-    public class RequestService<T> where T : class, IRequestService<T>, new()
+    public class RequestService<T> where T : class, new() //IRequestService<T>, new()
     {
         public T Post(string Endpoint, IDictionary<string, string> headers, IDictionary<string, object> parameters, object body = null)
         {

@@ -11,6 +11,7 @@ namespace StarkCrypto.Services.Interfaces
     {
         Task<ActionResult<List<Coin>>> Get();
         Task<ActionResult<Coin>> GetById(int id);
+        Task<Coin> GetBySymbol(string symbol);
         Task<ActionResult<Coin>> Add(Coin model);
         Task<ActionResult<Coin>> Edit(int id, Coin model);
         Task<ActionResult> Delete(int id);

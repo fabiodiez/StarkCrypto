@@ -45,6 +45,12 @@ namespace StarkCrypto.Services
             }
         }
 
+        public async Task<Coin> GetBySymbol(string symbol)
+        {
+            var ret = await _context.Coins.Where(x => x.Symbol == symbol).FirstOrDefaultAsync();
+            return ret;
+        }
+
         public async Task<ActionResult<Coin>> Add(Coin model)
         {            
             _context.Coins.Add(model);
@@ -66,7 +72,7 @@ namespace StarkCrypto.Services
             if (model.Id != id)
                 return NotFound(new { message = "Coin não encontrada" });
 
-            _context.Coins.Add(model);
+            _context.Coins.Update(model);
             try
             {
                 await _context.SaveChangesAsync();

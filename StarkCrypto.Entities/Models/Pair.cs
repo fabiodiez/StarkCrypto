@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StarkCrypto.Domains.Enum;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -10,13 +11,21 @@ namespace StarkCrypto.Domains.Models
     {
         [Key]
         public int Id { get; set; }
-        public int ExchangeId { get; set; }
-        public virtual Exchange Exchange { get; set; }
+        public int ExchangeId { get; set; }        
+        public virtual Exchange Exchange { get; set; }        
         public string PairName { get; set; }
-        public int FirstCoinId { get; set; }
-        public virtual Coin FirstCoin { get; set; }
-        public int SecondCoinId { get; set; }
-        public virtual Coin SecondCoin { get; set; }
+        public string FirstCoin { get; set; }
+        public string SecondCoin { get; set; }
         public bool Status { get; set; }
+
+        //public int Id { get; set; }
+        //public int ExchangeId { get; set; }
+        //public virtual Exchange Exchange { get; set; }
+        //public string PairName { get; set; }
+        //public int FirstCoinId { get; set; }
+        //public virtual Coin FirstCoin { get; set; }
+        //public int SecondCoinId { get; set; }
+        //public virtual Coin SecondCoin { get; set; }
+        //public bool Status { get; set; }
     }
 }

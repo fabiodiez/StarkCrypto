@@ -185,48 +185,48 @@ namespace StarkCrypto.Controllers
                 #endregion ExchangeCoin
 
                 #region pairs
-                var pairs = new List<Pair>();
-                pairs.Add(new Pair
-                {
+                //var pairs = new List<Pair>();
+                //pairs.Add(new Pair
+                //{
 
-                    ExchangeId = 1,
-                    FirstCoinId = 3,
-                    SecondCoinId = 1
-                });
+                //    ExchangeId = 1,
+                //    FirstCoinId = 3,
+                //    SecondCoinId = 1
+                //});
 
-                pairs.Add(new Pair
-                {
-                    ExchangeId = 2,
-                    FirstCoinId = 3,
-                    SecondCoinId = 1
-                });
+                //pairs.Add(new Pair
+                //{
+                //    ExchangeId = 2,
+                //    FirstCoinId = 3,
+                //    SecondCoinId = 1
+                //});
 
-                pairs.Add(new Pair
-                {
-                    ExchangeId = 1,
-                    FirstCoinId = 3,
-                    SecondCoinId = 2
-                });
-                pairs.Add(new Pair
-                {
-                    ExchangeId = 2,
-                    FirstCoinId = 3,
-                    SecondCoinId = 2
-                });
+                //pairs.Add(new Pair
+                //{
+                //    ExchangeId = 1,
+                //    FirstCoinId = 3,
+                //    SecondCoinId = 2
+                //});
+                //pairs.Add(new Pair
+                //{
+                //    ExchangeId = 2,
+                //    FirstCoinId = 3,
+                //    SecondCoinId = 2
+                //});
                 #endregion Pairs
 
                 context.Exchanges.Add(exchange);
                 context.Exchanges.Add(exchange2);
                 context.SaveChanges();
                 
-                context.Coins.AddRange(coins);
-                context.SaveChanges();
+                //context.Coins.AddRange(coins);
+                //context.SaveChanges();
                 
-                context.ExchangeCoins.AddRange(exchangeCoins);
-                context.SaveChanges();
+                //context.ExchangeCoins.AddRange(exchangeCoins);
+                //context.SaveChanges();
                 
-                context.Pairs.AddRange(pairs);
-                context.SaveChanges();
+                //context.Pairs.AddRange(pairs);
+                //context.SaveChanges();
 
                 context.Users.Add(usuarioPadrao);
                 context.SaveChanges();
