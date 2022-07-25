@@ -64,8 +64,8 @@ namespace StarkCrypto
 
             services.AddControllers();
 
-            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
-            //services.AddDbContext<DataContext>(opt => opt.UseMySQL(Configuration.GetConnectionString("Default")));
+            //services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            services.AddDbContext<DataContext>(opt => opt.UseMySQL(Configuration.GetConnectionString("Default")));
 
 
             services.AddScoped<DataContext, DataContext>();

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace StarkCrypto.Domains.Models
+namespace StarkCrypto.Domains.Receives
 {
     public class BinanceSymbolsReceive
     {        

@@ -32,10 +32,15 @@ namespace StarkCrypto.Controllers
         //[Authorize]
         public async Task<ActionResult<string>> GetAllCoins() => await _service.GetAllCoins();
 
-        //[HttpGet]
-        //[Route("/GetAllPairs")]
-        ////[Authorize]
-        //public async Task<ActionResult<string>> GetAllPairs(int exchange) => await _service.GetAllPairs(exchange);
+         [HttpGet]
+         [Route("/GetOrderBookBinance")]
+         //[Authorize]
+         public async Task<ActionResult<string>> GetOrderBookBinance() => await _service.GetOrderBookBinance();
+
+        [HttpGet]
+        [Route("/GetOrderBookBitfinex")]
+        //[Authorize]
+        public async Task<ActionResult<string>> GetOrderBookBitfinex() => await _service.GetOrderBookBitfinex();
 
     }
 }

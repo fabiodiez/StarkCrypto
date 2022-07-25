@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StarkCrypto.Data;
+using StarkCrypto.Domains.Enum;
 using StarkCrypto.Domains.Models;
 using StarkCrypto.Services.Interfaces;
 using System;
@@ -24,7 +25,7 @@ namespace StarkCrypto.Services
         {
             try
             {
-                var ret = await _context.Pairs.Include(x => x.Exchange).Include(x => x.FirstCoin).Include(x => x.SecondCoin).AsNoTracking().ToListAsync();
+                var ret = await _context.Pairs.AsNoTracking().ToListAsync();
                 return Ok(ret);
             }
             catch (Exception e)
@@ -37,12 +38,50 @@ namespace StarkCrypto.Services
         {
             try
             {
-                var ret = await _context.Pairs.Include(x => x.Exchange).Include(x => x.FirstCoin).Include(x => x.SecondCoin).AsNoTracking().Where(x => x.Id == id).FirstOrDefaultAsync();
+                var ret = await _context.Pairs.AsNoTracking().Where(x => x.Id == id).FirstOrDefaultAsync();
                 return Ok(ret);
             }
             catch (Exception e)
             {
                 return BadRequest(new { message = "Erro ao processar a solicitação" });
+            }
+        }
+
+        public async Task<string> GetPairs(eExchanges exchange = eExchanges.None)
+        {
+            try
+            {
+                string resp = "";
+                //var ret = await _context.Pairs.Where(c => c.SecondCoin == "BTC" || c.SecondCoin == "USDT" || c.SecondCoin == "ETH").AsNoTracking().ToListAsync();
+                var ret = await _context.Pairs.Where(p => p.Status == true && p.SecondCoin.Equals("USDT")).AsNoTracking().ToListAsync();
+                
+                if(exchange == eExchanges.Binance)
+                {
+                    resp = "[";
+
+                    foreach (var item in ret)
+                    {
+                        resp += $"\"{item.PairName}\",";
+                    }
+                    resp = resp.Substring(0, resp.Length - 1);
+                    resp += "]";
+                }
+
+                if (exchange == eExchanges.Bitfinex)
+                {
+
+                    foreach (var item in ret)
+                    {
+                        resp += $"t{item.PairNameBitfinex},";
+                    }
+                    resp = resp.Substring(0, resp.Length - 1);
+                }
+
+                    return resp;
+            }
+            catch (Exception e)
+            {
+                return "Erro ao processar a solicitação";
             }
         }
 

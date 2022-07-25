@@ -150,7 +150,6 @@ C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Ba
 C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\bin\Debug\net5.0\MySql.Data.dll
 C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\bin\Debug\net5.0\Ubiety.Dns.Core.dll
-C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\bin\Debug\net5.0\Zstandard.Net.dll
 C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
 C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\bin\Debug\net5.0\RestSharp.dll
@@ -188,3 +187,4 @@ C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Ba
 C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\obj\Debug\net5.0\StarkCrypto.BackEnd.pdb
 C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\obj\Debug\net5.0\StarkCrypto.BackEnd.genruntimeconfig.cache
 C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\obj\Debug\net5.0\ref\StarkCrypto.BackEnd.dll
+C:\Users\fabio\OneDrive\Documentos\CodeStark\Projetos\StarkCrypto\StarkCrypto_Backend\bin\Debug\net5.0\ZstdNet.dll

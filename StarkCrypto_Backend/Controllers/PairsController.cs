@@ -31,6 +31,12 @@ namespace StarkCrypto.Controllers
         //[Authorize]
         public async Task<ActionResult<List<Pair>>> Get() => await _service.Get();
 
+
+        [HttpGet]
+        [Route("/GetPairs")]
+        //[Authorize]
+        public async Task<ActionResult<string>> GetPairs() => await _service.GetPairs();
+
         [HttpGet]
         [Route("{id:int}")]
         public async Task<ActionResult<Pair>> GetById(int id) => await _service.GetById(id);

@@ -12,5 +12,7 @@ namespace StarkCrypto.Services.Interfaces
     public interface IConfigService
     {
         Task<ActionResult<string>> GetAllCoins();
+        Task<ActionResult<string>> GetOrderBookBinance();
+        Task<ActionResult<string>> GetOrderBookBitfinex();
     }
 }

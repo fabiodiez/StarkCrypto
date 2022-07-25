@@ -4,16 +4,13 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace StarkCrypto.Domains.Models
+namespace StarkCrypto.Domains.Receives
 {
+ 
     public class BinanceTicker24Receive
-    {        
-        public List<ticker> Payload { get; set; }         
-    }
-
-    public class ticker
     {
         public string symbol { get; set; }
+        public string symbolBitfinex { get; set; }
         public string priceChange { get; set; }
         public string priceChangePercent { get; set; }
         public string lastPrice { get; set; }

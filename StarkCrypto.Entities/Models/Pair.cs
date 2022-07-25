@@ -14,6 +14,7 @@ namespace StarkCrypto.Domains.Models
         public int ExchangeId { get; set; }        
         public virtual Exchange Exchange { get; set; }        
         public string PairName { get; set; }
+        public string PairNameBitfinex { get; set; }
         public string FirstCoin { get; set; }
         public string SecondCoin { get; set; }
         public bool Status { get; set; }

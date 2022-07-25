@@ -20,9 +20,10 @@ namespace StarkCrypto.Domains.Helpers
     public class BinanceEndpoints
     {
         public string ExchangeInfo { get; set; } = "https://api.binance.com/api/v3/exchangeInfo";
+        public string OrderBook{ get; set; } = "https://api.binance.com/api/v3/ticker/24hr?symbols=";
         public string TickerSymbols{ get; set; } = "https://api.binance.com/api/v3/ticker/24hr?symbols=";
         //public string TickerArray { get; set; } = "https://api.binance.com/api/v3/ticker?symbols=";
-        public string OrderBookTicker { get; set; } = "https://api.binance.com/api/v3/ticker/bookTicker?symbols=";
+        public string bookTicker { get; set; } = "https://api.binance.com/api/v3/ticker/bookTicker?symbols=";
         public string PriceTicker { get; set; } = "https://api.binance.com/api/v3/ticker/price?symbols=";
     }
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using StarkCrypto.Domains.Enum;
 using StarkCrypto.Domains.Models;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ namespace StarkCrypto.Services.Interfaces
         Task<ActionResult<List<Pair>>> Get();
         Task<ActionResult<Pair>> GetById(int id);
         Task<ActionResult<Pair>> Add(Pair model);
+        Task<string> GetPairs(eExchanges exchange = eExchanges.None);
         Task<ActionResult<Pair>> Edit(int id, Pair model);
         Task<ActionResult> Delete(int id);
     }

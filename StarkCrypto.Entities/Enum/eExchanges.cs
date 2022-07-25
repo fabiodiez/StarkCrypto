@@ -7,6 +7,7 @@ namespace StarkCrypto.Domains.Enum
 {
     public enum eExchanges
     {
+        None = 0,
         Binance = 1,
         Bitfinex = 2,
         Okex = 3,
